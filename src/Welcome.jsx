@@ -1,7 +1,9 @@
 function Welcome() {
   return (
-    <div>
-      <h2>Welcome to React!</h2>
+    <div className="welcome-card">
+      <h1>Welcome to React!</h1>
+      <p>Build fast, interactive user interfaces with reusable components.</p>
+      <button className="primary-button">Get Started</button>
     </div>
   );
 }
